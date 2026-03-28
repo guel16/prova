@@ -1,5 +1,5 @@
-const saudacaoNome = nome;
-function saudar (nome) {
-    prompt("Qual é o seu nome? ")
-    console.log (`Olá ${nome}`)
+let nome = prompt ("Qual é seu nome ");
+function saudar  (nome) {
+    return `Bme vindo ${nome}`
 }
+console.log (saudar(nome))
